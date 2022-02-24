@@ -7,6 +7,7 @@ import Mascot from './components/Mascot.vue';
 import Illustrations from './components/Illustrations.vue';
 import Wallpapers from './components/Wallpapers.vue';
 import NotFound from './components/NotFound.vue';
+import SiteStats from './components/SiteStats.vue';
 
 let LoadersAnimations = () => import(/* webpackChunkName: "loaders" */'./components/LoadersAnimations.vue');
 
@@ -42,6 +43,10 @@ const routes = [
     {
         path: '/wallpapers',
         component: Wallpapers
+    },
+    {
+        path: '/site-stats',
+        component: SiteStats
     },
     {
         path: '/:catchAll(.*)',

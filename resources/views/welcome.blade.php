@@ -36,6 +36,13 @@
                                 <li><router-link to="/wallpapers">Wallpapers</router-link></li>
                             </ul>
                         </section>
+
+                        <section>
+                            <h5>Stats</h5>
+                            <ul>
+                                <li><router-link to="/site-stats">Site Stats</router-link></li>
+                            </ul>
+                        </section>
                     </aside>
 
                     <div class="primary">
