@@ -18,9 +18,18 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get('stats', function (){
-   return[
-       'series' => 200,
-       'lessons' => 1300
-   ];
+Route::get('stats', function () {
+    return [
+        'series' => 200,
+        'lessons' => 1300
+    ];
 });
+
+Route::get('achievements', function () {
+    return [
+        'achievements' => [
+            'Chatty Cathy',
+            'One year subscription'
+        ],
+    ];
+});//->middleware('auth:api'); -> secured with token
