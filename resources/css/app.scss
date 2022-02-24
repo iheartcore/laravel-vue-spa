@@ -1,3 +1,48 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    @apply mx-auto;
+
+    header{
+        @apply py-6;
+
+        img{
+            @apply mb-8;
+        }
+    }
+
+    main{
+        @apply flex;
+
+        aside{
+            @apply w-1/5 mt-4;
+
+            section{
+                @apply mb-8;
+
+                h5{
+                    @apply text-lg uppercase font-bold mb-4;
+                }
+
+                li{
+                    @apply text-sm leading-10;
+                }
+            }
+        }
+
+        .primary{
+            @apply flex-1;
+
+            h1{
+                @apply text-4xl font-normal leading-none;
+            }
+        }
+    }
+}

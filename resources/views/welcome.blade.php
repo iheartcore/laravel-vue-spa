@@ -5,21 +5,45 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Laravel</title>
-
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-
         <!-- Styles -->
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
     </head>
     <body>
         <div id="app">
-            <router-view></router-view>
+            <div class="container">
+                <header>
+                    <img src="{{ asset('images/logo.svg') }}" alt="logo Laracasts" />
+                </header>
 
-            <hr>
-            <router-link to="/">Home</router-link>
-            <router-link to="/about">About</router-link>
+                <main>
+                    <aside>
+                        <section>
+                            <h5>The Brand</h5>
+                            <ul>
+                                <li><router-link to="/">Logo</router-link></li>
+                                <li><router-link to="/about">Logo Symbol</router-link></li>
+                                <li><router-link to="/">Colors</router-link></li>
+                                <li><router-link to="/">Typography</router-link></li>
+                            </ul>
+                        </section>
+
+                        <section>
+                            <h5>Doodles</h5>
+                            <ul>
+                                <li><router-link to="/">Mascot</router-link></li>
+                                <li><router-link to="/about">Illustrations</router-link></li>
+                                <li><router-link to="/">Loaders & Animations</router-link></li>
+                                <li><router-link to="/">Wallpapers</router-link></li>
+                            </ul>
+                        </section>
+                    </aside>
+
+                    <div class="primary">
+                        <router-view></router-view>
+                    </div>
+                </main>
+            </div>
         </div>
 
         <script src="{{ asset('js/app.js') }}"></script>
