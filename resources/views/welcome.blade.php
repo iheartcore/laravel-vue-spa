@@ -7,8 +7,6 @@
         <title>Laravel</title>
         <!-- Styles -->
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-
-        <script src="https://cdnjs.com/libraries/bodymovin" type="text/javascript"></script>
     </head>
     <body>
         <div id="app">

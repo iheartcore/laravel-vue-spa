@@ -14,7 +14,7 @@
         <div
             class="border border-grey-lighter rounded-lg flex items-center justify-center mb-8"
         >
-            <div ref="lottie" id="lottie" class="w-64" style="height: 457px"></div>
+            <div ref="lottie" class="w-64" style="height: 457px"></div>
         </div>
 
         <a href="/laracasts-spinner.zip" class="button">spinner.zip</a>
@@ -22,11 +22,13 @@
 </template>
 
 <script>
+import lottie from 'lottie-web'
+
 export default {
     name: "LoadersAnimations",
     mounted() {
-        var animation = bodymovin.loadAnimation({
-            container: document.getElementById('lottie'),
+        lottie.loadAnimation({
+            container: this.$refs.lottie,
             renderer: 'svg',
             loop: true,
             autoplay: true,

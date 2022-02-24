@@ -7,17 +7,17 @@
 
             <div class="flex">
                 <div class="text-center mr-8">
-                    <div class="rounded-full bg-blue-500 shadow w-18 h-18 mb-3"></div>
+                    <div class="color-circle bg-blue-500"></div>
                     <p class="text-xs">#328AF1</p>
                 </div>
 
                 <div class="text-center mr-8">
-                    <div class="rounded-full bg-white shadow w-18 h-18 mb-3"></div>
+                    <div class="color-circle bg-white"></div>
                     <p class="text-xs">#FFF</p>
                 </div>
 
                 <div class="text-center">
-                    <div class="rounded-full bg-black shadow w-18 h-18 mb-3"></div>
+                    <div class="color-circle bg-black"></div>
                     <p class="text-xs">#222222</p>
                 </div>
             </div>
@@ -44,7 +44,9 @@
                     from="#6EDCC4"
                     name="Testing"
                 ></color-range>
+            </div>
 
+            <div class="flex">
                 <color-range
                     to="#E59D3E"
                     from="#F19A1A"
@@ -64,7 +66,7 @@
 
             <div class="flex">
                 <div class="text-center mr-8">
-                    <div class="rounded-full shadow w-18 h-18 mb-3 bg-gray-800"></div>
+                    <div class="color-circle bg-gray-800"></div>
                     <p class="text-xs">#78909C</p>
                 </div>
             </div>
