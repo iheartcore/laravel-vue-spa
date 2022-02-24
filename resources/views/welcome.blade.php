@@ -8,14 +8,15 @@
         <!-- Styles -->
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
+        <script src="https://cdnjs.com/libraries/bodymovin" type="text/javascript"></script>
     </head>
     <body>
         <div id="app">
-            <div class="container">
-                <header>
-                    <img src="{{ asset('images/logo.svg') }}" alt="logo Laracasts" />
-                </header>
+            <header>
+                <img src="{{ asset('images/logo.svg') }}" alt="logo Laracasts" />
+            </header>
 
+            <div class="container">
                 <main>
                     <aside>
                         <section>
