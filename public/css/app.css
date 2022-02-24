@@ -404,7 +404,7 @@ body {
   display: flex;
 }
 .container main aside{
-  margin-top: 1rem;
+  margin-top: 0.75rem;
   width: 20%;
 }
 .container main aside section{
@@ -421,6 +421,10 @@ body {
   font-size: 0.875rem;
   line-height: 2.5rem;
 }
+.container main aside section li .router-link-active{
+  font-weight: 700;
+  font-style: italic;
+}
 .container main .primary{
   flex: 1 1 0%;
 }
@@ -429,4 +433,6 @@ body {
   line-height: 2.5rem;
   font-weight: 400;
   line-height: 1;
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity));
 }

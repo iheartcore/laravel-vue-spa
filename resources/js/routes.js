@@ -1,15 +1,45 @@
 import { createRouter, createWebHistory } from "vue-router";
-import Home from './components/Home.vue';
-import About from './components/About.vue';
+import Logo from './components/Logo.vue';
+import LogoSymbol from './components/LogoSymbol.vue';
+import Colors from './components/Colors.vue';
+import Typography from './components/Typography.vue';
+import Mascot from './components/Mascot.vue';
+import Illustrations from './components/Illustrations.vue';
+import LoadersAnimations from './components/LoadersAnimations.vue';
+import Wallpapers from './components/Wallpapers.vue';
 
 const routes = [
     {
         path: '/',
-        component: Home
+        component: Logo
     },
     {
-        path: '/about',
-        component: About
+        path: '/logo-symbol',
+        component: LogoSymbol
+    },
+    {
+        path: '/colors',
+        component: Colors
+    },
+    {
+        path: '/typography',
+        component: Typography
+    },
+    {
+        path: '/mascot',
+        component: Mascot
+    },
+    {
+        path: '/illustrations',
+        component: Illustrations
+    },
+    {
+        path: '/loaders-animations',
+        component: LoadersAnimations
+    },
+    {
+        path: '/wallpapers',
+        component: Wallpapers
     },
 ];
 

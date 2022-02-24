@@ -22,7 +22,7 @@ body{
         @apply flex;
 
         aside{
-            @apply w-1/5 mt-4;
+            @apply w-1/5 mt-3;
 
             section{
                 @apply mb-8;
@@ -33,6 +33,10 @@ body{
 
                 li{
                     @apply text-sm leading-10;
+
+                    .router-link-active {
+                        @apply font-bold italic;
+                    }
                 }
             }
         }
@@ -41,7 +45,7 @@ body{
             @apply flex-1;
 
             h1{
-                @apply text-4xl font-normal leading-none;
+                @apply text-4xl font-normal leading-none text-gray-700;
             }
         }
     }

@@ -1,10 +1,10 @@
 <template>
-    <h1>Full Logo</h1>
+    <h1>Logo Symbol</h1>
 </template>
 
 <script>
 export default {
-    name: "Home"
+    name: "LogoSymbol"
 }
 </script>
 
